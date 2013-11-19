@@ -1,0 +1,11 @@
+_home:
+    pattern:  /
+    defaults: { _controller: AcmeDemoBundle:Home:index }
+
+_about:
+    pattern:  /about
+    defaults: { _controller: AcmeDemoBundle:Home:about }
+
+_contact:
+    pattern:  /contact
+    defaults: { _controller: AcmeDemoBundle:Home:contact }

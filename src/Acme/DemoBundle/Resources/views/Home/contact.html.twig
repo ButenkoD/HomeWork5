@@ -1,0 +1,10 @@
+{% extends 'AcmeDemoBundle:Home:layout.html.twig' %}
+
+{% block content %}
+    <div class="alert alert-info">
+        <strong>Contact me</strong>
+        {% for contact in contacts %}
+            <p> {{ contact }} </p>
+        {% endfor %}
+    </div>
+{% endblock %}
